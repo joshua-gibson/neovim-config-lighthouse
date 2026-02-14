@@ -1,4 +1,19 @@
-# 💤 LazyVim
+# 💤 NeoVim Configuration for LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Pre-installation
+
+### Core CLI tools for Telescope and LazyVim extras
+
+sudo dnf install ripgrep fd-find fzf
+
+### Development tools for Treesitter (syntax highlighting)
+
+sudo dnf install gcc gcc-c++
+
+### Clipboard support (Required for Wayland/GNOME)
+
+sudo dnf install wl-clipboard
+
+### Language Runtimes (Required for Mason to install LSPs/Formatters)
+
+sudo dnf install nodejs npm python3-pip go luarocks
