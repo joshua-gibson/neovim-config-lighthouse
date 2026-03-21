@@ -3,14 +3,8 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
-local is_mac = vim.uv.os_uname().sysname == "Darwin"
 
-if is_mac then
-  -- macOS specific: Map the special characters Ghostty/macOS sends
-  map("n", "∆", "<C-d>zz", { desc = "Scroll Down (macOS)" })
-  map("n", "˚", "<C-u>zz", { desc = "Scroll Up (macOS)" })
-else
-  -- Linux/Other: Map the standard Alt key
-  map("n", "<M-j>", "<C-d>zz", { desc = "Scroll Down" })
-  map("n", "<M-k>", "<C-u>zz", { desc = "Scroll Up" })
-end
+-- Page Up/Down: half-page scroll with cursor centred
+map("n", "<PageDown>", "<C-d>zz", { desc = "Page Down" })
+map("n", "<PageUp>", "<C-u>zz", { desc = "Page Up" })
+-- M-j/M-k left as LazyVim defaults (move line up/down)
