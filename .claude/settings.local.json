@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jogi/.local/share -path */LazyVim/lua/lazyvim/plugins/extras/lang/nix.lua)",
+      "Bash(xargs cat:*)",
+      "Read(//Users/jogi/.local/share/nvim/lazy/LazyVim/**)",
+      "Bash(2)",
+      "Bash(find /Users/jogi/.config/LazyVim -name *.lua -path */ftplugin/*)",
+      "Bash(find /Users/jogi/.local/share/LazyVim -name *.lua -path */ftplugin/*)"
+    ]
+  }
+}
