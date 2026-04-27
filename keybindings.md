@@ -20,6 +20,14 @@ All `<leader>` bindings defined in this config (`lua/plugins/`). LazyVim default
 
 ---
 
+## `<leader>b` — Buffers (additions to LazyVim defaults)
+
+| Key | Action |
+|-----|--------|
+| `<leader>bt` | Refresh buffers from disk, git signs, explorer |
+
+---
+
 ## `<leader>D` — Docker
 
 | Key | Action |

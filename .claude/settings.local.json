@@ -6,7 +6,8 @@
       "Read(//Users/jogi/.local/share/nvim/lazy/LazyVim/**)",
       "Bash(2)",
       "Bash(find /Users/jogi/.config/LazyVim -name *.lua -path */ftplugin/*)",
-      "Bash(find /Users/jogi/.local/share/LazyVim -name *.lua -path */ftplugin/*)"
+      "Bash(find /Users/jogi/.local/share/LazyVim -name *.lua -path */ftplugin/*)",
+      "mcp__claude_ai_Context7__resolve-library-id"
     ]
   }
 }
