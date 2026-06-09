@@ -25,6 +25,11 @@ All `<leader>` bindings defined in this config (`lua/plugins/`). LazyVim default
 | Key | Action |
 |-----|--------|
 | `<leader>bt` | Refresh buffers from disk, git signs, explorer |
+## `<leader>m` — Markdown
+
+| Key | Action |
+|-----|--------|
+| `<leader>mp` | Toggle Markdown Preview (browser) |
 
 ---
 
@@ -77,6 +82,7 @@ Use this to avoid conflicts when adding new bindings.
 | `<leader>h` | Harpoon (LazyVim, conditional) |
 | `<leader>K` | Keywordprg (LazyVim) |
 | `<leader>l` | Lazy (LazyVim) |
+| `<leader>m` | Markdown (custom) |
 | `<leader>L` | LazyVim Changelog (LazyVim) |
 | `<leader>n` | Notifications (LazyVim) |
 | `<leader>q` | Quit/Session (LazyVim) |
@@ -92,4 +98,4 @@ Use this to avoid conflicts when adding new bindings.
 
 ### Free single-letter prefixes
 
-`i`, `j`, `k`, `m`, `o`, `p`, `v` (lowercase) — `A`, `B`, `C`, `E`, `F`, `H`, `I`, `J`, `M`, `N`, `O`, `P`, `Q`, `T`, `U`, `V`, `W`, `X`, `Y`, `Z` (uppercase)
+`i`, `j`, `k`, `o`, `p`, `v` (lowercase) — `A`, `B`, `C`, `E`, `F`, `H`, `I`, `J`, `M`, `N`, `O`, `P`, `Q`, `T`, `U`, `V`, `W`, `X`, `Y`, `Z` (uppercase)
