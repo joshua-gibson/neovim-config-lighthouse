@@ -7,7 +7,11 @@
       "Bash(2)",
       "Bash(find /Users/jogi/.config/LazyVim -name *.lua -path */ftplugin/*)",
       "Bash(find /Users/jogi/.local/share/LazyVim -name *.lua -path */ftplugin/*)",
-      "mcp__claude_ai_Context7__resolve-library-id"
+      "mcp__claude_ai_Context7__resolve-library-id",
+      "Read(//home/flash/.local/share/nvim/lazy/**)",
+      "Read(//home/flash/.local/share/LazyVim/lazy/LazyVim/lua/lazyvim/plugins/extras/ai/**)",
+      "Read(//home/flash/.local/share/LazyVim/lazy/LazyVim/lua/**)",
+      "Bash(nvim --version)"
     ]
   }
 }
