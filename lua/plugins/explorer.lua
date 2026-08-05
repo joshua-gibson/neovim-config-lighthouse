@@ -11,6 +11,7 @@ return {
               list = {
                 keys = {
                   ["Y"] = "copy_path",
+                  ["<c-t>"] = false,
                 },
               },
             },

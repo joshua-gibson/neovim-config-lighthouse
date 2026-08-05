@@ -47,6 +47,8 @@ All `<leader>` bindings defined in this config (`lua/plugins/`). LazyVim default
 |-----|--------|
 | `<leader>gw` | Git Worktrees |
 | `<leader>gW` | Create Git Worktree |
+| `<leader>gr` | Code Review: Working Tree (tuicr) |
+| `<leader>gR` | Code Review: Branch vs Base (tuicr) |
 
 ---
 
@@ -61,6 +63,16 @@ All `<leader>` bindings defined in this config (`lua/plugins/`). LazyVim default
 | `<leader>zF` | Find surrounding (left) |
 | `<leader>zh` | Highlight surrounding |
 | `<leader>zn` | Update n_lines |
+
+---
+
+## Non-leader overrides
+
+| Key | Context | Action |
+|-----|---------|--------|
+| `<C-t>` | Snacks explorer list | Disabled (was: open terminal in cwd) |
+| `<C-q>` | tuicr float (terminal mode) | Hide the float |
+| `<Esc>` | tuicr float (terminal mode) | Passed to tuicr (double-Esc-to-normal disabled) |
 
 ---
 
